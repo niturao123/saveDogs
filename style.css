@@ -18,9 +18,9 @@ ul {
 }
 
 #image-first {
-    width: 40%;
-    min-height: 300px;
-    padding: 20px;
+   width: 100%;
+   min-height: 120px;
+   margin: 10px;
 }
 
 .logo {
@@ -150,4 +150,10 @@ footer {
 
 footer button {
     max-height: 40px;
+}
+
+@media(min-width: 700px){
+    #image-first{
+        width: 20%;
+    }
 }
